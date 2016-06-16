@@ -1,0 +1,93 @@
+body {
+	box-sizing: border-box;
+	font-family: Verdana, serif;
+	padding: 0;
+	margin: 0;
+}
+
+a.disabled:not(.promo), a .disabled {
+	color: purple;
+}
+
+.disabled {
+	color: grey;
+}
+
+.active {
+	color: yellow;
+}
+
+/*------HEADER------*/
+
+header {
+	border: 1px solid red;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+/*----MONTHS------*/
+
+
+
+
+
+
+
+
+/*------COLORS------*/
+
+.parent div div:first-of-type {
+	color: red;
+}
+
+.parent div div:last-of-type {
+	color: blue;
+}
+
+.parent div h4:first-of-type {
+	background-color: red;
+}
+
+.parent div h4:last-of-type {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid;
+	border-radius: 20%;
+}
+
+/*--------FOOTER------*/
+
+.promo, .promo span {
+	font-weight: bold;
+	color: gold;
+}
+
+span input {
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
